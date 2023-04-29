@@ -24,6 +24,13 @@ if (mg >= 126)
    Console.ResetColor();
    Environment.Exit(1);
 }
+if (mg <=0)
+{
+    Console.ForegroundColor = ConsoleColor.DarkRed;
+    Console.WriteLine($"O valor {mg} mg/dL e Invalido");
+    Console.ResetColor();
+    Environment.Exit(1);
+}
 
  Console.ForegroundColor = ConsoleColor.Yellow;
  Console.WriteLine($"{mg} mg/dL = Compatível com Diabetes Gestacional");
