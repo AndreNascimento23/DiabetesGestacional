@@ -5,7 +5,7 @@ int mg;
 
 Console.WriteLine("---DiabetesGestacional---\n");
 
-Console.Write("Digite o valor em glicenia: ");
+Console.Write("Digite o valor em glicemia: ");
 mg = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine();
