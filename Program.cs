@@ -35,3 +35,4 @@ if (mg >= 126)
  Console.ForegroundColor = ConsoleColor.Yellow;
  Console.WriteLine($"{mg} mg/dL = Compatível com Diabetes Gestacional");
  Console.ResetColor();
+ 
